@@ -14,7 +14,7 @@ class Order {
     constructor(){}
 
 
-//this is con
+//this is const
     constructor(
         price: String?,
         prepayment: String?,

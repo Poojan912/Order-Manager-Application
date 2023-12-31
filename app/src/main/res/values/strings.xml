@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Order_management_jetCompose</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_analysis">Analysis</string>
+    <string name="title_activity_check_list">CheckList</string>
+    <string name="title_activity_spalsh">Spalsh</string>
+    <string name="title_activity_pop_up_setting">PopUpSetting</string>
+    <string name="title_activity_pop_up_setting_main">PopUpSettingMain</string>
+    <string name="title_activity_order_add">OrderAdd</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_check_list_main">CheckListMain</string>
+    <string name="title_activity_check_list1_screen">CheckList1Screen</string>
+    <string name="title_activity_popup_setting">popupSetting</string>
+    <string name="title_activity_trend_main">TrendMain</string>
+    <string name="title_activity_popup_period">popupPeriod</string>
+</resources>

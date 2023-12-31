@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.order_management_jetcompose">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Order_management_jetCompose"
+        tools:targetApi="31">
+        <activity
+            android:name=".popupPeriod"
+            android:exported="false"
+            android:label="@string/title_activity_popup_period"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+        <activity
+            android:name=".TrendMain"
+            android:exported="false"
+            android:label="@string/title_activity_trend_main"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+        <activity
+            android:name=".popupSetting"
+            android:exported="false"
+            android:label="@string/title_activity_popup_setting"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+
+        <activity
+            android:name=".CheckList1Screen"
+            android:exported="false"
+            android:label="@string/title_activity_check_list1_screen"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+        <activity
+            android:name=".CheckListMain"
+            android:exported="false"
+            android:label="@string/title_activity_check_list_main"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+
+        <activity
+            android:name=".OrderAdd"
+            android:exported="false"
+            android:label="@string/title_activity_order_add"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+
+        <activity
+            android:name=".Analysis"
+            android:exported="true"
+            android:label="@string/title_activity_analysis"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Order_management_jetCompose" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Order_management_jetCompose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

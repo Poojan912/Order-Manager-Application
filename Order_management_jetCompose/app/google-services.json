@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "808714463394",
+    "firebase_url": "https://order-manager-jet-compose-default-rtdb.firebaseio.com",
+    "project_id": "order-manager-jet-compose",
+    "storage_bucket": "order-manager-jet-compose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808714463394:android:322ee935241766f4d90ffb",
+        "android_client_info": {
+          "package_name": "com.example.order_management_jetcompose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808714463394-vel2t6vqctbm912jblt8ib9j62iv6uif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ6B3koJtalHKgQdyBOs2icjdoeaNr8_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808714463394-vel2t6vqctbm912jblt8ib9j62iv6uif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

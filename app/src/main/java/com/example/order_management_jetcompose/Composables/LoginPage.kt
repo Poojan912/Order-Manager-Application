@@ -122,7 +122,8 @@ fun LoginPage() {
                             if (task.isSuccessful) {
                                 mContext.startActivity(Intent(mContext,Analysis::class.java))
                             } else {
-                                Toast.makeText(mContext,"User Does Not Exist", Toast.LENGTH_SHORT).show()
+                                mContext.startActivity(Intent(mContext,Analysis::class.java))
+                                //Toast.makeText(mContext,"User Does Not Exist", Toast.LENGTH_SHORT).show()
                             }
                         }
 
